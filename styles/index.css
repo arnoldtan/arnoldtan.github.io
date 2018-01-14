@@ -1,0 +1,26 @@
+body {
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 2em 1em;
+  color: #555;
+  text-align: center;
+  background-color: grey;
+}
+
+
+#results {
+	margin-top: 2em;
+}
+
+.result {
+	display: inline-flex;
+	margin: 1em;
+}
+
+img {
+	width: 20em;
+	height: 20em;
+	border: 1px solid #555;
+	border-radius: 1em;
+}
