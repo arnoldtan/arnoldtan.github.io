@@ -32,9 +32,7 @@ $(document).ready(function() {
 			for(gif of results) {
 			 	var div = document.createElement('div'),
 			 			img = document.createElement('img');
-			 	div.innerHTML = '<a href='
-		 										+ gif.images.original.url
-		 										+ '><img src='+ gif.images.original.url +'></a>';
+			 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 			 	div.className += 'result';
 			 	$('#results').append(div);
 			}
@@ -46,9 +44,7 @@ $(document).ready(function() {
 			for(gif of results) {
 				var div = document.createElement('div'),
 		  	img = document.createElement('img');
-			 	div.innerHTML = '<a href='
-			 									+ gif.images.original.url
-			 									+ '><img src='+ gif.images.original.url +'></a>';
+			 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 			 	div.className += 'result';
 			 	$('#results').append(div);
 			}
@@ -66,9 +62,7 @@ $(document).ready(function() {
 					for(gif of results) {
 					 	var div = document.createElement('div'),
 					 			img = document.createElement('img');
-					 	div.innerHTML = '<a href='
-		 												+ gif.images.original.url
-		 												+ '><img src='+ gif.images.original.url +'></a>';
+					 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 					 	div.className += 'result';
 					 	$('#results').append(div);
 					}
@@ -80,9 +74,7 @@ $(document).ready(function() {
 					for(gif of results) {
 						var div = document.createElement('div'),
 				  	img = document.createElement('img');
-					 	div.innerHTML = '<a href='
-		 												+ gif.images.original.url
-		 												+ '><img src='+ gif.images.original.url +'></a>';
+					 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 					 	div.className += 'result';
 					 	$('#results').append(div);
 					}
@@ -103,9 +95,7 @@ $(document).ready(function() {
 				for(gif of results) {
 				 	var div = document.createElement('div'),
 				 			img = document.createElement('img');
-				 	div.innerHTML = '<a href='
-		 											+ gif.images.original.url
-		 											+ '><img src='+ gif.images.original.url +'></a>';
+				 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 				 	div.className += 'result';
 				 	$('#results').append(div);
 				}
@@ -118,9 +108,7 @@ $(document).ready(function() {
 				for(gif of results) {
 					var div = document.createElement('div'),
 			  	img = document.createElement('img');
-				 	div.innerHTML = '<a href='
-		 											+ gif.images.original.url
-		 											+ '><img src='+ gif.images.original.url +'></a>';
+				 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 				 	div.className += 'result';
 				 	$('#results').append(div);
 				}
@@ -136,9 +124,7 @@ $(document).ready(function() {
   			$('#results').html('');
 			  var div = document.createElement('div'),
 			 			img = document.createElement('img');
-			 	div.innerHTML = '<a href='
-		 										+ data.data.image_url
-		 										+ '><img src='+ data.data.image_url +'></a>';
+			 	div.innerHTML = '<img src='+ data.data.image_url +'></a>';
 		  	div.className += 'result';
 		  	$('#results').append(div);
 		  }
@@ -155,9 +141,7 @@ $(document).ready(function() {
 				for(gif of results) {
 				 	var div = document.createElement('div'),
 				 			img = document.createElement('img');
-				 	div.innerHTML = '<a href='
-		 											+ gif.images.original.url
-		 											+ '><img src='+ gif.images.original.url +'></a>';
+				 	div.innerHTML = '<img src='+ gif.images.original.url +'></a>';
 				 	div.className += 'result';
 				 	$('#results').append(div);
 				}
